@@ -5,7 +5,7 @@
     "separator": ",",
     "skip": 0,
     "meta": [
-        { "type": "id", "index": 0, "name": "Gene" },
+        { "type": "id", "index": 0, "name": "Genes" },
         { "type": "integer", "index": 1, "name": "Meningitis" },
         { "type": "integer", "index": 2, "name": "Stroke" },
         { "type": "integer", "index": 3, "name": "Glioblastoma" },
