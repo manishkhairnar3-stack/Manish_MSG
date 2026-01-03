@@ -1,0 +1,20 @@
+{
+	"file": "https://raw.githubusercontent.com/manishkhairnar3-stack/Manish_MSG/refs/heads/main/Manish_MSG_Data.csv",
+	"name": "ManishK_MSG_Dataset",
+	"header": 0,
+	"separator": ",",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Genes" },
+		{ "type": "integer", "index": 1, "name": "Meningitis" },
+		{ "type": "integer", "index": 2, "name": "Stroke" },
+		{ "type": "integer", "index": 3, "name": "Glioblastoma" },
+		{ "type": "realnumber", "index": 4, "name": "M-Log2FC" },
+		{ "type": "realnumber", "index": 5, "name": "S-Log2FC" },
+		{ "type": "realnumber", "index": 6, "name": "GB-Log2FC" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 3 },
+		{ "format": "realnumber", "start": 4, "end": 6 }
+	]
+}
